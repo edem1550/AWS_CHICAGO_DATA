@@ -36,7 +36,7 @@ The workflow covers data ingestion, cleaning, transformation, analysis, and visu
 
 ## Process Flow
 
-[Process flow](Pictures/processflow.png)
+![Process flow](Pictures/processflow.png)
 
 ---
 
