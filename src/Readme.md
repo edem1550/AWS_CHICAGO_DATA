@@ -82,6 +82,6 @@ The workflow covers data ingestion, cleaning, transformation, analysis, and visu
 ![Correlation between tips and trip miles ](Pictures/Corr_between_tips_and_trips.png)
 
 **Analysis:**
-- There's positive correlation between the two variable. However, since the value of R^2 is low, we cannot say that we can predict the value of the tip based on trip miles.
+- There's positive correlation between the two variable. However, since the value of R^2 is low, we cannot say that we can predict accurately the value of the tip based on trip miles.
 
 ---
