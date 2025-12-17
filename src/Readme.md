@@ -36,29 +36,52 @@ The workflow covers data ingestion, cleaning, transformation, analysis, and visu
 
 ## Process Flow
 
-See below graph
-
+[Process flow](Pictures/processflow.png)
 
 ---
 
 ## Graphs
 
-1. AVG trip_miles per day
+1. **AVG trip_miles per day**
 
 ![Average trip miles per day](Pictures/AVG_trip_miles_per_day.png)
 
-2. AVG fare per hour (bar chart)
+**Analysis:**
+- Longest usage on Sunday --> shopping, church, family visit, freetime activities
+- Shorter trips on working days --> mostly work, school related travels
+
+
+2. **AVG fare per hour**
 
 ![Average fare per hour](Pictures/AVG_fare_per_hour.png)
 
-3. Share of company revenues in the examined period (donut chart)
+**Analysis:**
+- Higher average fares during evening - late night hours --> higher prices, but also longer travels (from downtown to suburbs)
+
+
+3. **Share of company revenues in the examined period**
 
 ![Share of company revenues](Pictures/Revenue_share_by_Company.png)
 
-4. Number of taxi trips by payment type (pie chart)
+**Analysis:**
+- More than 90% of all revenue goes to 10 companies.
+- Flash Cab has the highest market share with around 20%- 
+
+
+4. **Number of taxi trips by payment type**
 
 ![Number of taxi trips by payment type](Pictures/Number_of_taxi_trips_by_payment_type.png)
 
-5. Correlation between temperature and trip mile data (scatterplot)
+**Analysis:**
+- Paying with credit card is the most popular payment type with 36.3% share
+- Cash is only 3rd on the list with 21.9% share
+
+
+5. **Correlation between temperature and trip mile data**
 
 ![Correlation between tips and trip miles ](Pictures/Corr_between_tips_and_trips.png)
+
+**Analysis:**
+- There's positive correlation between the two variable. However, since the value of R^2 is low, we cannot say that tips depends from trip miles.
+
+---
